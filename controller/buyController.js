@@ -1,5 +1,8 @@
 const fs = require('fs');
 
+
+const buycurrency = JSON.parse(fs.readFileSync(`${__dirname}/../dev-data/data/buycurrency.json`));
+
 exports.getAllBuycurrencies = (req, res)=> {
   res.status(200).json({
     status: "success",
