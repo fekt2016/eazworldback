@@ -1,0 +1,42 @@
+[
+    {
+        "currency": "bitcoin",
+        "amountUSD": 100,
+        "amount": 1450,
+        "minersFee": 0.5,
+        "totaltopay": 1457.25,
+        "wallet address": "17DCoXX6gxEkJUB6hL3YSTeyY433yuzfkh",
+        "paymentMethod": "mtnMOMO",
+        "agree": true
+    },
+    {
+        "currency": "bitcoin cash",
+        "amountUSD": 100,
+        "amount": 1450,
+        "minersFee": 0.5,
+        "totaltopay": 1457.25,
+        "wallet address": "17DCoXX6gxEkJUB6hL3YSTeyY433yuzfkh",
+        "paymentMethod": "mtnMOMO",
+        "agree": true
+    },
+    {
+        "currency": "ripple",
+        "amountUSD": 100,
+        "amount": 1450,
+        "minersFee": 0.5,
+        "totaltopay": 1457.25,
+        "wallet address": "17DCoXX6gxEkJUB6hL3YSTeyY433yuzfkh",
+        "paymentMethod": "mtnMOMO",
+        "agree": true
+    },
+    {
+        "currency": "litecoin",
+        "amountUSD":200,
+        "amount": 2900,
+        "minersFee": 0.5,
+        "totaltopay": 2907.25,
+        "wallet address": "17DCoXX6gxEkJUB6hL3YSTeyY433yuzfkh",
+        "paymentMethod": "mtnMOMO",
+        "agree": true
+    }
+]
