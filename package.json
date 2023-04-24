@@ -5,7 +5,8 @@
   "main": "app.js",
   "scripts": {
     "start:dev": "nodemon server.js",
-    "start:prod": "NODE_ENV=production nodemon server.js"
+    "start:prod": "NODE_ENV=production nodemon server.js",
+    "debug": "ndb server.js"
   },
   "keywords": [
     "bitcoin",
@@ -16,17 +17,25 @@
   "author": "Yussif faisal",
   "license": "ISC",
   "dependencies": {
+    "@swyftx/api-crypto-address-validator": "^1.13.1",
     "bcryptjs": "^2.4.3",
     "cookie-parser": "^1.4.6",
     "cors": "^2.8.5",
     "dotenv": "^16.0.3",
     "express": "^4.18.2",
+    "express-mongo-sanitize": "^2.2.0",
+    "express-rate-limit": "^6.7.0",
+    "helmet": "^6.1.5",
+    "hpp": "^0.2.3",
     "jsonwebtoken": "^9.0.0",
-    "mongoose": "^5.13.16",
+    "mongoose": "^5.13.17",
     "morgan": "^1.10.0",
+    "ndb": "^1.1.5",
+    "nodemailer": "^6.9.1",
     "nodemon": "^2.0.20",
     "react-cookie": "^4.1.1",
-    "validator": "^13.9.0"
+    "validator": "^13.9.0",
+    "xss-clean": "^0.1.1"
   },
   "devDependencies": {
     "eslint": "^8.27.0",
@@ -38,5 +47,8 @@
     "eslint-plugin-prettier": "^4.2.1",
     "eslint-plugin-react": "^7.31.10",
     "prettier": "^2.7.1"
+  },
+  "engines": {
+    "node": ">=10.0.0"
   }
 }
